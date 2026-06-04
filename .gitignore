@@ -1,0 +1,42 @@
+# Binaries and Build Artifacts
+/dist/
+OPENFABRIC.md
+FEATURES_TESTING.md
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/fabric
+/fabric-agent
+
+# Node & SvelteKit
+ui/node_modules/
+ui/.svelte-kit/
+ui/dist/
+ui/build/
+ui/.env
+ui/.env.*
+!ui/.env.example
+!ui/.env.test
+ui/vite.config.js.timestamp-*
+ui/vite.config.ts.timestamp-*
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Temporary Files and Folders
+/tmp/
